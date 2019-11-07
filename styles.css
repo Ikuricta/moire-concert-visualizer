@@ -46,10 +46,10 @@ pre {
     line-height: 18.5714px;
     font-kerning: normal;
 }
-button-wrap {
+#buttonContainer {
     text-align:center;
 }
-button {
+#beginButton {
     background-color: #00B3B2;
     border: none;
     border-radius: 4px;
@@ -63,9 +63,10 @@ button {
     font-size: 24px;
   }
 
-button:hover {
+#beginButton:hover {
     background-color: #0A97C9;
 }
 
-button:active {
+#beginButton:active {
     background-color: #0A60BF;
+}
