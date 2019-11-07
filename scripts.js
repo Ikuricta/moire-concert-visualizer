@@ -1,5 +1,6 @@
 //a music visualizer with moire patterns intended to accompany live performance
-// from p5.js examples: https://p5js.org/examples/sound-frequency-spectrum.html
+// p5 example https://p5js.org/examples/sound-frequency-spectrum.html
+
 let mic, fft;
 
 function setup() {
