@@ -3,14 +3,16 @@
     <head>
         <title>Concert Visualizer</title>
             <link rel="stylesheet" type="text/css" href="styles.css">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
-            <script src="path/to/p5.sound.js"></script>
-        <body>
-             <h1>Concert Visualizer</h1>
-                <div style="text-align:center;" class="button-wrap">
-                    <button onclick="setup()">Begin now</button>
-                </div>
-             <div id="visCanvas"></div> 
-        </body>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
     </head>
+    <body>
+            <h1>Concert Visualizer</h1>
+                <div id="buttonContainer" style="text-align:center;">
+                    <input id="beginButton" type="button" value="Begin now" onclick="setup(); draw();">
+
+                </div> 
+    </body>
+    
 </html>
